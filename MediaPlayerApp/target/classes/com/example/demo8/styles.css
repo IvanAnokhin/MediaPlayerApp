@@ -1,0 +1,50 @@
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.slider {
+    -fx-control-inner-background: #557998;
+    -fx-background-color: #557998;
+}
+.root {
+    /*-fx-background-image: url("background.jpg"); /* Путь к вашему изображению */
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: #ADD8E6; /* Цвет фона в случае, если изображение не загрузится */
+}
+/* Заголовок */
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+/* Текст для названия трека */
+.song-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+/* Текст для остальных элементов */
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+}
+
+/* Кнопки */
+.button {
+    -fx-font-size: 16px;
+}
+.button:pressed {
+    -fx-border-color: #000000; /* Цвет обводки */
+    -fx-border-width: 2px;     /* Ширина обводки */
+}
+
+
+
